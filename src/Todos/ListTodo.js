@@ -99,7 +99,7 @@ const ListTodo = () => {
 return (
     <div className="container">
         <div className='header'>
-            <h1>TODO APPPPPPP</h1>
+            <h1>TODO APP</h1>
             <div className='inputValue'>
                 <input value={title} type="text" onChange={(e) => setTitle(e.target.value)} placeholder="Enter todo......" className="inp" />&ensp;
                 {
